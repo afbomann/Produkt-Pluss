@@ -110,6 +110,12 @@ body {
     }
 }
 
+@media screen and (max-width: 538px) {
+    .navbar h1 {
+        margin-right: 45%;
+    }
+}
+
 .navbar ul li a:hover {
     color: orange;
 }
