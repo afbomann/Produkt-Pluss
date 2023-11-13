@@ -116,6 +116,30 @@ body {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .navbar h1 {
+        margin-right: 40%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .navbar h1 {
+        margin-right: 35%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .navbar h1 {
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .navbar h1 {
+        margin-right: 25%;
+    }
+}
+
 .navbar ul li a:hover {
     color: orange;
 }
@@ -127,15 +151,19 @@ body {
 
 @media screen and (max-width: 1000px) {
     .main {
-        width: 95%;
+        width: 100%;
     }
 }
 
 .main h1 {
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: 2.5rem;
     margin-bottom: 2vh;
 }
 
 .main p {
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: 1.6rem;
 }
