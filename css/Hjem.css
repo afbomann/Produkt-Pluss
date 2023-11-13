@@ -18,6 +18,12 @@ body {
     align-items: center;
 }
 
+@media screen and (max-height: 500px) {
+    .navbar {
+        height: 15vh;
+    }
+}
+
 .navbar ul {
     display: flex;
 }
