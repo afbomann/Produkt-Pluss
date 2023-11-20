@@ -1,5 +1,5 @@
-let ProdukterKnapp = document.getElementById('ProdukterKnapp')
+let ProdukterKnapp = document.querySelector('.ProdukterKnapp')
 
 ProdukterKnapp.addEventListener('click', () => {
-    window.location.href = "/Produkter.html";
+    window.location = "/Produkter.html"
 })
